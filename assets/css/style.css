@@ -1,0 +1,67 @@
+.ilustracion {
+    height: 500px;
+    width: 1000px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    place-items: center;
+    margin: 0px;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/Desktop-Foundation\ Full\ Stack\ Web\ Development\ with\ NodeJS\ .jpg");
+    height: 500px;
+}
+nav{
+    background-color: azure;    
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+.experiencia{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 200;
+}
+
+.galeria {
+    padding: 130px 0;
+    background-color:azure;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+
+}
+
+.galeria > img {
+    height: 250;
+    transition: 5s;
+
+}
+
+.galeria > img:hover {
+    scale: 1.2;
+}
+.yo{
+    display: flex;
+    justify-content: center;
+     text-align: center;
+     background-color: azure;
+}
+h3{
+    justify-content:left;
+    display: inline-block;
+}
+footer{
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
