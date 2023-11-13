@@ -19,7 +19,7 @@ header {
     height: 500px;
 }
 nav{
-    background-color: azure;    
+    background-color:rgb(94, 142, 237);    
 }
 nav a{
     color: white;
@@ -34,7 +34,7 @@ nav a{
 
 .galeria {
     padding: 130px 0;
-    background-color:azure;
+    background-color:rgb(209, 220, 242);
     display: flex;
     justify-content: center;
     gap: 35px;
@@ -54,14 +54,17 @@ nav a{
     display: flex;
     justify-content: center;
      text-align: center;
-     background-color: azure;
+     background-color: rgb(209, 220, 242);
 }
 h3{
     justify-content:left;
     display: inline-block;
 }
 footer{
-    background-color: blue;
+    background-color: rgb(94, 142, 237);
     text-align: center;
     color: white;
+}
+.forck{
+    background-color: rgb(94, 142, 237;)
 }
